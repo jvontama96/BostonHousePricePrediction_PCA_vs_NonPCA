@@ -7,7 +7,6 @@
 </head>
 <body>
     <h1>Boston House Price Prediction with PCA and Non-PCA Features</h1>
-    
     <h2>Data Definition</h2>
     <p>For detailed data definitions, visit the <a href="https://github.com/jvontama96/BostonHousePricePrediction_PCA_vs_NonPCA/tree/main/Dataset%20and%20Data%20Processing">Data Definition Repository</a>.</p>
     <ul>
@@ -26,7 +25,6 @@
         <li><strong>LSTAT:</strong> % lower status of the population.</li>
         <li><strong>MEDV:</strong> Median value of owner-occupied homes in $1000s.</li>
     </ul>
-    
     <h2>Data Processing</h2>
     <p>For data processing details, visit the <a href="https://github.com/jvontama96/BostonHousePricePrediction_PCA_vs_NonPCA/tree/main/Dataset%20and%20Data%20Processing">Data Processing Repository</a>.</p>
     <ul>
@@ -71,7 +69,6 @@
             </ul>
         </li>
     </ul>
-
     <h2>Correlation Matrix</h2>
     <p>Strong positive correlations were observed between:</p>
     <ul>
@@ -82,23 +79,19 @@
     <ul>
         <li>Accessibility to radial highways (RAD), property-tax rate (TAX), per capita crime rate (CRIM), and nitric oxides concentration (NOX).</li>
     </ul>
-
     <h2>Data Splitting and Scaling</h2>
     <p>Data was split into training and test sets and scaled appropriately for modeling.</p>
-
     <h2>PCA Processing</h2>
     <p>For PCA processing details, visit the <a href="https://github.com/jvontama96/BostonHousePricePrediction_PCA_vs_NonPCA/tree/main/PCA">PCA Repository</a>.</p>
     <ul>
         <li>Skree plot analysis performed.</li>
         <li>Feature reduction resulted in 6 principal components from 9.</li>
     </ul>
-
     <h2>Modeling</h2>
     <p>Used Lasso Regression for modeling.</p>
     <ul>
         <li>Model fitted to both PCA and non-PCA data.</li>
     </ul>
-
     <h2>Evaluation</h2>
     <p>Evaluation details are available at the <a href="https://github.com/jvontama96/BostonHousePricePrediction_PCA_vs_NonPCA/tree/main/Evaluation">Evaluation Repository</a>.</p>
     <h3>Without PCA Metrics</h3>
@@ -129,7 +122,6 @@
             <td>16.03%</td>
         </tr>
     </table>
-
     <h3>With PCA Metrics</h3>
     <table border="1">
         <tr>
@@ -158,7 +150,6 @@
             <td>16.67%</td>
         </tr>
     </table>
-
     <h2>Model Interpretation</h2>
     <h3>Without PCA</h3>
     <p>The linear regression model is described by the following equation:</p>
@@ -180,7 +171,6 @@
         <li><strong>B (b):</strong> For each unit increase in the calculated variable based on the proportion of blacks, the house price increases by approximately 0.81.</li>
         <li><strong>LSTAT (lstat):</strong> For each percentage increase in the percentage of lower status of the population, the house price decreases by approximately 5.88.</li>
     </ul>
-
     <h3>With PCA</h3>
     <p>The linear regression model is described by the following equation:</p>
     <pre>
@@ -193,7 +183,6 @@
         <li><strong>PC1, PC2, PC3, PC5, PC6:</strong> Higher proportions positively impact the target value.</li>
         <li><strong>PC4:</strong> Higher proportion negatively impacts the target value.</li>
     </ul>
-
     <h2>Comparison: Without PCA vs With PCA</h2>
     <table border="1">
         <tr>
@@ -222,7 +211,7 @@
             <td>14.85%</td>
         </tr>
     </table>
-
     <p>Overall, metrics evaluation is better with PCA compared to without PCA.</p>
 </body>
 </html>
+
