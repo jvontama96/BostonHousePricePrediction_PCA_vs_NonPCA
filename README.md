@@ -73,7 +73,7 @@
         </li>
     </ul>
     <h2>Correlation Matrix</h2>
-    <img src="https://github.com/jvontama96/BostonHousePricePrediction_PCA_vs_NonPCA/blob/main/Dataset%20and%20Data%20Processing/Correlation_matrix_Before.png?raw=true" alt="Outlier Before" style="width:100%; max-width:600px;">
+    <img src="https://github.com/jvontama96/BostonHousePricePrediction_PCA_vs_NonPCA/blob/main/Dataset%20and%20Data%20Processing/Correlation_matrix_Before.png?raw=true" alt="Cor Before" style="width:100%; max-width:600px;">
     <p>Strong positive correlations were observed between:</p>
     <ul>
         <li>The number of rooms (RM) and median housing prices (MEDV).</li>
@@ -83,7 +83,7 @@
     <ul>
         <li>Accessibility to radial highways (RAD), property-tax rate (TAX), per capita crime rate (CRIM), and nitric oxides concentration (NOX).</li>
      <p>As a result of this finding, we will drop features with high multicollinearity.</p>
-     <img src="https://github.com/jvontama96/BostonHousePricePrediction_PCA_vs_NonPCA/blob/main/Dataset%20and%20Data%20Processing/Correlation_matrix_After.png?raw=true" alt="Outlier Before" style="width:100%; max-width:600px;">
+     <img src="https://github.com/jvontama96/BostonHousePricePrediction_PCA_vs_NonPCA/blob/main/Dataset%20and%20Data%20Processing/Correlation_matrix_after.png?raw=true" alt="Cor After" style="width:100%; max-width:600px;">
     </ul>
     <h2>Data Splitting and Scaling</h2>
     <p>Data was split into training and test sets and scaled appropriately for modeling.</p>
