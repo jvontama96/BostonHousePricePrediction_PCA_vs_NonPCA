@@ -51,6 +51,8 @@
                     <li>MEDV outliers: 7.91%</li>
                 </ul>
                 <li><strong>After Outlier Handling:</strong></li>
+                <img src="https://github.com/jvontama96/BostonHousePricePrediction_PCA_vs_NonPCA/blob/main/Dataset%20and%20Data%20Processing/House_outlier_after.png?raw=true" alt="Outlier After" style="width:100%; max-width:600px;">
+                Handling outliers in features with more than 10% outliers, such as CRIM, ZN, and B, using data transformation methods.
                 <ul>
                     <li>CRIM outliers: 1.19%</li>
                     <li>ZN outliers: 0.00%</li>
