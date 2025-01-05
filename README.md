@@ -91,12 +91,8 @@
         <li>A scree plot analysis was performed, resulting in feature reduction to six principal components from the original nine.</li>
         <img src="https://github.com/jvontama96/BostonHousePricePrediction_PCA_vs_NonPCA/blob/main/PCA/Skree_Plot.png?raw=true" alt="Skree Plot" style="width:100%; max-width:600px;">
     </ul>
-    <h2>Modeling</h2>
-    <p>Used Lasso Regression for modeling.</p>
-    <ul>
-        <li>Model fitted to both PCA and non-PCA data.</li>
-    </ul>
     <h2><a href="https://github.com/jvontama96/BostonHousePricePrediction_PCA_vs_NonPCA/tree/main/Evaluation">Model Evaluation</a></h2>
+    <p>Lasso Regression was used for modeling. The model was fitted to both PCA and non-PCA data.</p>
     <h3>Without PCA Metrics</h3>
     <table border="1">
         <tr>
@@ -222,6 +218,12 @@
   <li><strong>MAPE</strong>: The PCA model (14.85%) has better relative accuracy than the non-PCA model (15.23%).</li>
 </ul>
 <p>Overall, <strong>the PCA model is slightly better</strong> for predicting house prices.</p>
+<h2>Business Implementations and Actions</h2>
+<ol>
+    <li><strong>Targeted Pricing Strategies:</strong> Based on feature analysis, businesses can adjust pricing by focusing on key factors like the number of rooms (RM), proximity to the Charles River (CHAS), and socio-economic indicators (LSTAT). This can help optimize pricing based on property characteristics.</li>
+    <li><strong>Investment in Property Development:</strong> Investment strategies could prioritize areas with higher values for ZN (land zoning for large lots) and CHAS (proximity to the Charles River) to increase the appeal of properties, especially in high-demand regions.</li>
+    <li><strong>Optimized Marketing Campaigns:</strong> Marketing campaigns could emphasize features that positively impact price predictions, such as a higher number of rooms (RM) or low pupil-teacher ratios (PTRATIO), attracting potential buyers in regions with these desirable traits.</li>
+</ol>
 </body>
 </html>
 
