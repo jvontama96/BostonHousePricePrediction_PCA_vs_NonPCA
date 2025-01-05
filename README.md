@@ -7,8 +7,9 @@
 </head>
 <body>
     <h1>Boston House Price Prediction with PCA and Non-PCA Features</h1>
+    <p><a href="github.com/jvontama96/BostonHousePricePrediction_PCA_vs_NonPCA/blob/main/BostonHouse_Notebook.ipynb">Full Project Documentation</a></p>
     <h2>Data Definition</h2>
-    <p>For detailed data definitions, visit the <a href="https://github.com/jvontama96/BostonHousePricePrediction_PCA_vs_NonPCA/tree/main/Dataset%20and%20Data%20Processing">Data Definition Repository</a>.</p>
+    <p>For detailed data definitions, visit the <a href="https://github.com/jvontama96/BostonHousePricePrediction_PCA_vs_NonPCA/tree/main/Dataset%20and%20Data%20Processing">Data Definition Directory</a>.</p>
     <ul>
         <li><strong>CRIM:</strong> Per capita crime rate by town.</li>
         <li><strong>ZN:</strong> Proportion of residential land zoned for lots over 25,000 sq.ft.</li>
