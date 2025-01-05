@@ -85,9 +85,8 @@
     </ul>
      <p>As a result of this finding, we will drop features with high multicollinearity.</p>
      <img src="https://github.com/jvontama96/BostonHousePricePrediction_PCA_vs_NonPCA/blob/main/Dataset%20and%20Data%20Processing/Correlation_matrix_after.png?raw=true" alt="Cor After" style="width:100%; max-width:600px;">
-    <h2>Data Splitting and Scaling</h2>
-    <p>Data was split into training and test sets and scaled appropriately for modeling.</p>
-    <h2>PCA Processing<a href="https://github.com/jvontama96/BostonHousePricePrediction_PCA_vs_NonPCA/tree/main/PCA">Directory</a></h2>
+    <h2>Data Processing, Splitting, Scaling, and PCA</h2>
+    <p>Data was split into training and test sets and scaled appropriately for modeling. After that, we processed the PCA <a href="https://github.com/jvontama96/BostonHousePricePrediction_PCA_vs_NonPCA/tree/main/PCA">here</a>.</p>
     <ul>
         <li>A scree plot analysis was performed, resulting in feature reduction to six principal components from the original nine.</li>
         <img src="https://github.com/jvontama96/BostonHousePricePrediction_PCA_vs_NonPCA/blob/main/PCA/Skree_Plot.png?raw=true" alt="Skree Plot" style="width:100%; max-width:600px;">
@@ -97,8 +96,7 @@
     <ul>
         <li>Model fitted to both PCA and non-PCA data.</li>
     </ul>
-    <h2>Evaluation</h2>
-    <p>Evaluation details are available at the <a href="https://github.com/jvontama96/BostonHousePricePrediction_PCA_vs_NonPCA/tree/main/Evaluation">Evaluation Repository</a>.</p>
+    <h2><a href="https://github.com/jvontama96/BostonHousePricePrediction_PCA_vs_NonPCA/tree/main/Evaluation">Model Evaluation</a></h2>
     <h3>Without PCA Metrics</h3>
     <table border="1">
         <tr>
