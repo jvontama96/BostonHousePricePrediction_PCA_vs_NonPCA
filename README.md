@@ -32,6 +32,8 @@
         <li>No duplicates.</li>
         <li>Outliers check:
             <ul>
+                Dataset and Data Processing/House_outlier_before.png
+                <img src="https://github.com/jvontama96/BostonHousePricePrediction_PCA_vs_NonPCA/blob/main/Dataset%20and%20Data%20Processing/House_outlier_before.png?raw=true" alt="Outlier Before" style="width:100%; max-width:600px;">
                 <li><strong>Before Outlier Handling:</strong></li>
                 <ul>
                     <li>CRIM outliers: 13.04%</li>
