@@ -87,11 +87,10 @@
      <img src="https://github.com/jvontama96/BostonHousePricePrediction_PCA_vs_NonPCA/blob/main/Dataset%20and%20Data%20Processing/Correlation_matrix_after.png?raw=true" alt="Cor After" style="width:100%; max-width:600px;">
     <h2>Data Splitting and Scaling</h2>
     <p>Data was split into training and test sets and scaled appropriately for modeling.</p>
-    <h2>PCA Processing</h2>
-    <p>For PCA processing details, visit the <a href="https://github.com/jvontama96/BostonHousePricePrediction_PCA_vs_NonPCA/tree/main/PCA">PCA Repository</a>.</p>
+    <h2>PCA Processing<a href="https://github.com/jvontama96/BostonHousePricePrediction_PCA_vs_NonPCA/tree/main/PCA">Directory</a></h2>
     <ul>
-        <li>Skree plot analysis performed.</li>
-        <li>Feature reduction resulted in 6 principal components from 9.</li>
+        <li>A scree plot analysis was performed, resulting in feature reduction to six principal components from the original nine.</li>
+        <img src="https://github.com/jvontama96/BostonHousePricePrediction_PCA_vs_NonPCA/blob/main/PCA/Skree_Plot.png?raw=true" alt="Skree Plot" style="width:100%; max-width:600px;">
     </ul>
     <h2>Modeling</h2>
     <p>Used Lasso Regression for modeling.</p>
