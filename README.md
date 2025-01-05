@@ -86,7 +86,7 @@
      <p>As a result of this finding, we will drop features with high multicollinearity.</p>
      <img src="https://github.com/jvontama96/BostonHousePricePrediction_PCA_vs_NonPCA/blob/main/Dataset%20and%20Data%20Processing/Correlation_matrix_after.png?raw=true" alt="Cor After" style="width:100%; max-width:600px;">
     <h2>Data Processing, Splitting, Scaling, and PCA</h2>
-    <p>Data was split into training and test sets and scaled appropriately for modeling. After that, we processed the PCA <a href="https://github.com/jvontama96/BostonHousePricePrediction_PCA_vs_NonPCA/tree/main/PCA">here</a>.</p>
+    <p>Data was split into training and test sets with target feature <strong>"MEDV (Median value of owner-occupied homes in $1000s)"</strong>, and scaled appropriately for modeling. After that, we processed the PCA.<a href="https://github.com/jvontama96/BostonHousePricePrediction_PCA_vs_NonPCA/tree/main/PCA">here</a>.</p>
     <ul>
         <li>A scree plot analysis was performed, resulting in feature reduction to six principal components from the original nine.</li>
         <img src="https://github.com/jvontama96/BostonHousePricePrediction_PCA_vs_NonPCA/blob/main/PCA/Skree_Plot.png?raw=true" alt="Skree Plot" style="width:100%; max-width:600px;">
@@ -214,7 +214,14 @@
             <td>14.85%</td>
         </tr>
     </table>
-    <p>Overall, metrics evaluation is better with PCA compared to without PCA.</p>
+    <p>The model with PCA performs slightly better for predicting <strong>MEDV (Median value of owner-occupied homes)</strong>:</p>
+<ul>
+  <li><strong>R-squared</strong>: The PCA model (79.63%) has a slightly higher R-squared compared to the non-PCA model (79.15%), indicating a marginally better fit.</li>
+  <li><strong>RMSE</strong>: The PCA model (3.99) has a lower RMSE, meaning its predictions are closer to actual values than the non-PCA model (4.04).</li>
+  <li><strong>MAE</strong>: The PCA model (2.89) shows fewer absolute errors compared to the non-PCA model (3.02).</li>
+  <li><strong>MAPE</strong>: The PCA model (14.85%) has better relative accuracy than the non-PCA model (15.23%).</li>
+</ul>
+<p>Overall, <strong>the PCA model is slightly better</strong> for predicting house prices.</p>
 </body>
 </html>
 
