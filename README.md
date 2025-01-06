@@ -95,7 +95,7 @@
         <li>A scree plot analysis was performed, resulting in feature reduction to six principal components from the original nine.</li>
         <img src="https://github.com/jvontama96/BostonHousePricePrediction_PCA_vs_NonPCA/blob/main/PCA/Skree_Plot.png?raw=true" alt="Skree Plot" style="width:100%; max-width:600px;">
     </ul>
-    <h2><a href="https://github.com/jvontama96/BostonHousePricePrediction_PCA_vs_NonPCA/tree/main/Evaluation">Model Evaluation</a></h2>
+    <h2><a href="https://github.com/jvontama96/BostonHousePricePrediction_PCA_vs_NonPCA/tree/main/Evaluation">Model Evaluation (Click to access the directory)</a></h2>
     <p>Lasso Regression with Alpha 0.1 was used for modeling. The model was fitted to both PCA and non-PCA data.</p>
     <h3>Without PCA Metrics</h3>
     <table border="1">
