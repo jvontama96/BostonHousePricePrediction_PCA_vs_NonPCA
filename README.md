@@ -89,11 +89,13 @@
      <p>As a result of this finding, we will drop features with high multicollinearity.</p>
      <img src="https://github.com/jvontama96/BostonHousePricePrediction_PCA_vs_NonPCA/blob/main/Dataset%20and%20Data%20Processing/Correlation_matrix_after.png?raw=true" alt="Cor After" style="width:100%; max-width:600px;">
     <h2>Data Splitting, Scaling, and PCA</h2>
+    <ul>
     <li> Data was split into training and test sets with target feature <strong>"MEDV (Median value of owner-occupied homes in $1000s)"</strong>, and scaled appropriately for modeling. </li>
     <li> After that, we processed the PCA<a href="https://github.com/jvontama96/BostonHousePricePrediction_PCA_vs_NonPCA/tree/main/PCA">(Click here to access PCA Directory).</a></li>
     <ul>
         <li>A scree plot analysis was performed, resulting in feature reduction to six principal components from the original nine.</li>
         <img src="https://github.com/jvontama96/BostonHousePricePrediction_PCA_vs_NonPCA/blob/main/PCA/Skree_Plot.png?raw=true" alt="Skree Plot" style="width:100%; max-width:600px;">
+    </ul>
     </ul>
     <h2><a href="https://github.com/jvontama96/BostonHousePricePrediction_PCA_vs_NonPCA/tree/main/Evaluation">Model Evaluation (Click to access the directory)</a></h2>
     <p>Lasso Regression with Alpha 0.1 was used for modeling. The model was fitted to both PCA and non-PCA data.</p>
@@ -222,6 +224,7 @@
   <li><strong>MAPE</strong>: The PCA model (14.85%) has better relative accuracy than the non-PCA model (15.23%).</li>
 </ul>
 <p>Overall, <strong>the PCA model is slightly better</strong> for predicting house prices.</p>
+</ul>
 <h2>Business Implementations and Actions</h2>
 <ol>
     <li><strong>Targeted Pricing Strategies:</strong> Based on feature analysis, businesses can adjust pricing by focusing on key factors like the number of rooms (RM), proximity to the Charles River (CHAS), and socio-economic indicators (LSTAT). This can help optimize pricing based on property characteristics.</li>
