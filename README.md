@@ -27,7 +27,7 @@
         <li><strong>MEDV:</strong> Median value of owner-occupied homes in $1000s.</li>
     </ul>
     <h2>Data Processing</h2>
-    <p>For data processing details, visit the <a href="https://github.com/jvontama96/BostonHousePricePrediction_PCA_vs_NonPCA/tree/main/Dataset%20and%20Data%20Processing">Data Processing Repository</a>.</p>
+    <p>For data processing details, visit the <a href="https://github.com/jvontama96/BostonHousePricePrediction_PCA_vs_NonPCA/tree/main/Dataset%20and%20Data%20Processing">Data Processing Directory</a>.</p>
     <ul>
         <li>No missing values.</li>
         <li>No duplicates.</li>
