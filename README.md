@@ -26,7 +26,9 @@
         <li><strong>LSTAT:</strong> % lower status of the population.</li>
         <li><strong>MEDV:</strong> Median value of owner-occupied homes in $1000s.</li>
     </ul>
-    <h2>Data Processing</h2>
+    <h2>Project Pipeline</h2>
+    <ul>
+    <h2>Data Preporcessing</h2>
     <p>For data processing details, visit the <a href="https://github.com/jvontama96/BostonHousePricePrediction_PCA_vs_NonPCA/tree/main/Dataset%20and%20Data%20Processing">Data Processing Directory</a>.</p>
     <ul>
         <li>No missing values.</li>
@@ -86,8 +88,9 @@
     </ul>
      <p>As a result of this finding, we will drop features with high multicollinearity.</p>
      <img src="https://github.com/jvontama96/BostonHousePricePrediction_PCA_vs_NonPCA/blob/main/Dataset%20and%20Data%20Processing/Correlation_matrix_after.png?raw=true" alt="Cor After" style="width:100%; max-width:600px;">
-    <h2>Data Processing, Splitting, Scaling, and PCA</h2>
-    <p>Data was split into training and test sets with target feature <strong>"MEDV (Median value of owner-occupied homes in $1000s)"</strong>, and scaled appropriately for modeling. After that, we processed the PCA<a href="https://github.com/jvontama96/BostonHousePricePrediction_PCA_vs_NonPCA/tree/main/PCA">(Click here to access PCA Directory).</a></p>
+    <h2>Data Splitting, Scaling, and PCA</h2>
+    <li> Data was split into training and test sets with target feature <strong>"MEDV (Median value of owner-occupied homes in $1000s)"</strong>, and scaled appropriately for modeling. </li>
+    <li> After that, we processed the PCA<a href="https://github.com/jvontama96/BostonHousePricePrediction_PCA_vs_NonPCA/tree/main/PCA">(Click here to access PCA Directory).</a></li>
     <ul>
         <li>A scree plot analysis was performed, resulting in feature reduction to six principal components from the original nine.</li>
         <img src="https://github.com/jvontama96/BostonHousePricePrediction_PCA_vs_NonPCA/blob/main/PCA/Skree_Plot.png?raw=true" alt="Skree Plot" style="width:100%; max-width:600px;">
